@@ -1,0 +1,41 @@
+// sidebar
+$menuText:#bfcbd9;
+$menuActiveText:#FFF;
+$subMenuActiveText:#f4f4f5; //https://github.com/ElemeFE/element/issues/12951
+
+$menuBg:#304156;
+$menuHover:rgba(38,52,69,0.6) !important;;
+
+$subMenuBg:#1f2d3d;
+$subMenuHover:#001528;
+$link-color: #409EFF;
+
+$sideBarWidth: 210px;
+$asideBarWidth: 60px;
+$tabBarHeight: 48px;
+// fontSize
+$fontSize16: 16px;
+$fontSize14: 14px;
+
+// height
+$height36: 36px;
+
+// formLabelColor
+$formLabelColor: rgba(31,31,31,1);
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  menuText: $menuText;
+  menuActiveText: $menuActiveText;
+  subMenuActiveText: $subMenuActiveText;
+  menuBg: $menuBg;
+  menuHover: $menuHover;
+  subMenuBg: $subMenuBg;
+  subMenuHover: $subMenuHover;
+  sideBarWidth: $sideBarWidth;
+  fontSize16: $fontSize16;
+  fontSize14: $fontSize14;
+  height36: $height36;
+  formLabelColor: $formLabelColor
+}

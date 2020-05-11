@@ -1,0 +1,13 @@
+	
+	Welcome to Huawei Cloud Service
+
+Last login: Tue Apr 28 15:06:09 2020 from 1.83.124.180
+[guoger@ecs-962a-0005 ~]$ cd /usr/share/nginx
+sudo rm -rf html~
+[guoger@ecs-962a-0005 nginx]$ sudo rm -rf html~
+[guoger@ecs-962a-0005 nginx]$ sudo mv html html~
+sudo mv ~/dist html
+exit
+[guoger@ecs-962a-0005 nginx]$ sudo mv ~/dist html
+[guoger@ecs-962a-0005 nginx]$ exit
+logout

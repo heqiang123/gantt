@@ -1,0 +1,12 @@
+	
+	Welcome to Huawei Cloud Service
+
+Last login: Thu Apr  9 13:24:40 2020 from 1.83.124.179
+[guoger@ecs-962a-0005 ~]$ cd /usr/share/nginx
+[guoger@ecs-962a-0005 nginx]$ mv html html~
+mv: cannot move 'html' to 'html~': Permission denied
+[guoger@ecs-962a-0005 nginx]$ mv ~dist html
+exit
+mv: cannot stat '~dist': No such file or directory
+[guoger@ecs-962a-0005 nginx]$ exit
+logout
